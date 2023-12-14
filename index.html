@@ -1,7 +1,79 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Personal Website</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        .container {
+            display: flex;
+            max-width: 1200px;
+            margin: 20px auto;
+        }
+
+        nav {
+            flex: 1;
+            background-color: #555;
+            color: #fff;
+            padding: 20px;
+        }
+
+        nav a {
+            display: block;
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 0;
+        }
+
+        nav a:hover {
+            background-color: #444;
+        }
+
+        .about-me {
+            flex: 2;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        img.header-image {
+            width: 100%;
+            height: auto;
+            border-bottom: 2px solid #333;
+        }
+
+        .about-me img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
 <body>
-<h1>Hello World Team, Experimenting...Can delete this page</h1>
-<p>I'm hosted with GitHub Pages.</p>
+
+    <img class="header-image" src="your-header-image.jpg" alt="Your Name">
+
+    <div class="container">
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <div class="about-me">
+            <h2>About Me</h2>
+            <p>Your introduction and details about yourself go here.</p>
+            <img src="your-image.jpg" alt="Your Name">
+        </div>
+    </div>
+
 </body>
-</html> 
+</html>
